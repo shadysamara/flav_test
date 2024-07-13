@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: true,
       home: Scaffold(
-        body: Text("This is development mode"),
+        body: Center(child: Text("This is development mode")),
       ),
     );
   }
